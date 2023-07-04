@@ -2,7 +2,6 @@ import random
 
 computer_choice = random.randint(1, 10)
 
-
 trials = 0
 
 while trials <= 10:
