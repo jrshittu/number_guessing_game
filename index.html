@@ -48,7 +48,23 @@
     <script>
 
       // Your JavaScript goes here
+      let randomNumber = Math.floor(Math.random() * 100) + 1;
 
+      const guesses = document.querySelector(".guesses")
+      const lastResult = document.querySelector(".lastResult")
+      const loworHi = document.querySelector(".loworHi")
+
+      const guessField = document.querySelector(".guessField")
+      const guessSubmit = document.querySelector(".guessSubmit")
+
+      let guessCount = 1;
+      let resetButton;
+
+      function checkGuess(){
+        alert("Voila😍")
+      }
+
+      checkGuess()
     </script>
   </body>
 </html>

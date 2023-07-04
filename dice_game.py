@@ -4,7 +4,7 @@ ai_choice = randint(1, 6)
 
 def get_input():
     global user_input
-    user_input = input('Kindly choose between Odd and Even')
+    user_input = input('Kindly choose between Odd and Even: ')
     try:
         if user_input in ('Even', 'Odd'):
             return user_input
